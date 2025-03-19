@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="AddProductToCart Suite">
+    <test name="AddProductToCartTest">
+        <classes>
+            <!-- Add your test class here -->
+            <class name="tests.AddProductToCartTest">
+                <methods>
+                    <method name="verifyAddProductToCart"/>
+                    <method name="testRemovalProduct"/>
+                    <method name="addTwoProductAndDelete"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
