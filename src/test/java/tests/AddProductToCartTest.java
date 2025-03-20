@@ -36,9 +36,6 @@ private ShoppingCartPage shoppingCartPage;
 
     @Test(priority = 2, description = "Try deleting item")
     public void testRemovalProduct() {
-        HomePage homePage = new HomePage(driver);
-        ProductPage productPage = new ProductPage(driver);
-        ShoppingCartPage shoppingCartPage = new ShoppingCartPage(driver);
 
         homePage.searchBar();
         homePage.searchProduct();
@@ -53,10 +50,6 @@ private ShoppingCartPage shoppingCartPage;
 
     @Test(priority = 3, description = "Add multiple product to the cart and remove product")
     public void addTwoProductAndDelete() {
-        HomePage homePage = new HomePage(driver);
-        ProductPage productPage = new ProductPage(driver);
-        ShoppingCartPage shoppingCartPage = new ShoppingCartPage(driver);
-
 
         homePage.searchBar();
         homePage.searchProduct();
